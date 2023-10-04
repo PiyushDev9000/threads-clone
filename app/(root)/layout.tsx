@@ -21,6 +21,7 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+        <link rel="icon" href="/app/logo.ico" />
         <body className={inter.className}>
           <Topbar />
           <main className="flex flex-row">
